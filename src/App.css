@@ -1,0 +1,517 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.orange{
+    color: orangered;
+}
+
+
+
+/* img{
+    padding-top:15px;
+min-width: 700px;
+    height: 650px;
+} */
+
+.signupinput{
+    width: 180px;
+}
+.signuptitle{
+    color: white;
+}
+.top{
+    padding-top: 120px;
+}
+.signupbtn,.signin-btn{
+    background-color: orangered;
+    border: 1px solid white;
+    color: white;
+}
+.white{
+    color: white;
+    padding: 20px;
+}
+.p{
+    padding-right: 80px;
+}
+.whites{
+    color: white;  
+    margin-right: 40px;
+    padding: 10px;
+}
+.gender{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.bg-img,.signin{
+    background-image: url("https://t4.ftcdn.net/jpg/03/50/81/89/360_F_350818931_54A6UVQiJIK8UHFWB0NTGSIKO9jyTbQP.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    height: 700px;
+
+}
+
+
+.forgetimg{
+    background-image: url("https://wallpapercave.com/wp/wp7578959.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    height: 700px;
+}
+
+
+
+/*----------------- home ------------------------- */
+.home{
+    background-image: url("https://trumpwallpapers.com/wp-content/uploads/Workout-Wallpaper-27-1800-x-1200.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 700px;
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-right: 400px;
+}
+.homeh1{
+    font-size: 60px;
+    font-weight: bolder;
+}
+.homebtn{
+    height: 40px;
+    width:160px;
+    margin: 20px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 6px;
+}
+
+.aboutus{
+    background-color: rgb(49, 49, 49);
+    color: white;
+    height: 750px;
+}
+.aboutimg{
+    height: 520px;
+    min-width: 370px;
+    box-shadow: -20px -20px 0px orangered;
+    padding-top: 0px;
+    margin-top: 40px;
+   
+}
+.abouttitile,.servicetitle{
+    text-align: center;
+    padding: 30px;
+}
+
+.service{
+    background-color: rgb(35, 35, 35);
+    color: white;
+    height: 2100px;
+}
+
+.serviceimg{
+    height: 420px;
+    width: 400px;
+    box-shadow: -20px -20px 0px orangered;
+    padding-top: 0px;
+    margin-top: 40px;
+}
+.box{
+    background-color: black;
+}
+.contact{
+    background-color: rgb(49, 49, 49);
+    color: white;
+   
+}
+.contactinput{
+    border:1px solid red ;
+    min-width: 500px;
+
+}
+.contactbtn{
+    background-color: orangered;
+    color: white;
+    min-width: 500px;
+    
+}
+.bottombtn1{
+    margin: 10px;
+    text-decoration: none;
+}
+.footer{
+    background-color:rgb(10, 10, 10) ;
+    color: white;
+}
+.icons{
+    height: 40px;
+    width: 40px;
+    color: white;
+    font-size: 20px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.texts{
+    text-align: center;
+}
+
+.Dnavbar{
+    background-color: #8069FE;
+    padding: 20px;
+    width: 60px;
+    height: 700px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    position: fixed; 
+}
+
+.Dlink:hover{
+    color:#8069FE;
+    background-color: white;  
+}
+
+.Dlink{
+    color: white;
+    font-size: 25px;
+    padding: 8px;
+    border-radius: 100%;
+}
+.dashboard{
+    margin-left: 80px;
+}
+
+
+.cardimg{
+    width: 300px;
+    border-radius: 10px;
+
+   
+}
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card{
+    height:520px !important;
+    width: 320px;
+    margin: 20px;
+    border-radius:10px ;
+    box-shadow: 10px 10px 20px black;
+    transform-style: preserve-3d;
+    transition: all 2s ease;   
+}
+.text{
+    text-align: center;
+}
+
+.thefront{
+    position: absolute;
+  
+    padding-left: 15px;
+    backface-visibility: hidden;
+    color: black;
+    border-radius: 10px;
+}
+
+.theback{
+    position: absolute;
+    padding-left: 10px;
+    width: 320px;
+    height: 600px;
+    backface-visibility: hidden;
+    color: black;
+    border-radius: 10px;
+    transform: rotateY(180deg);
+}
+.card:hover{
+    transform: rotateY(180deg);
+}
+.cardbtn{
+    background-color: rgb(178, 16, 26);
+    color: white;
+    width: 100px;
+    padding:3px;
+    margin-left: 100px !important;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+}
+.maincontent{
+    margin-left: 80px;
+}
+.mainimg{
+    width: 500px;
+    height: 500px;
+}
+.mainimg2{
+    width: 400px;
+    height: 500px;
+    box-shadow: 10px  10px 20px black;
+}
+.textmain{
+    padding-left: 30px;
+}
+.mh3{
+    font-size: 40px;
+    font-weight: 500;
+}
+.bodypartform{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:100px ;
+    border-radius: 10px;
+   
+}
+
+.bodtpartinput{
+    height: 49px;
+    width: 430px;
+    border-radius: 40px;
+    padding-left: 15px;
+    box-shadow: 10px 10px 20px black;
+    border: none;
+
+}
+
+.bodtpartbtn{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    font-weight:bolder;
+    position: relative;
+    transform: translateX(-110%);
+}
+
+.width{
+    width: 1070px !important;
+   
+}
+.showmorebtn{
+    padding: 7px;
+    border-radius: 5px;
+    background-color: rgb(14, 24, 226);
+    color: white;
+    border: none;
+    margin: 20px;
+}
+
+.sliderimg{
+    width: 1050px;
+    height: 300px;
+ 
+
+}
+
+/* profile */
+.profile{
+    width: 300px;
+    border: 1px solid black;
+    position:fixed;
+    transform: translateX(80px);
+    box-shadow: 3px 10px 25px black;
+    background-color: #e0e6f9;
+}
+.logout{
+    border: none;
+    background-color: #e0e6f9;
+}
+
+.profileimg{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+.taskimg{
+    width: 250px;
+    height: 215px;
+    margin-left: 25px; 
+    margin-top: 10px;    
+}
+.font{
+    font-size: 20px;
+    padding-left: 50px;
+    font-weight:bolder;
+}
+
+.padding{
+    padding-left: 130px;
+}
+.middle{
+    margin-left: 110px;
+    
+}
+.sbtn{
+    background-color: blue;
+    color: white;
+}
+.taskimg2{
+    width: 500px;
+    height: 300px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.taskinput{
+    height: 40px;
+    width: 450px;
+    padding: 5px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+.tasktext{
+   
+    width: 450px;
+    padding: 5px;
+    margin: 10px;
+}
+.taskform{
+    background-color: rgb(0, 0, 0,.4);
+    margin-top: 100px;
+    border-radius: 20px;
+    padding :40px 20px 20px 20px
+}
+.taskbtn{
+    width: 450px;
+    height: 40px;
+    background-color: chocolate;
+    color: white;
+    border: none;
+    margin-top: 30px;
+}
+.main{
+background-color: darkgrey;  
+min-height: 690px;
+}
+.taskcard{
+    border: 1px solid;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.taskcardbtn{
+    color: white;
+    background-color: red;
+    border: none;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+}
+.boxs{
+    width: 480px;
+    height: 150px;
+    border:1px solid;
+    padding: 15px;
+    background: linear-gradient(283deg, rgba(0,0,0,1) 45%, rgba(2,4,96,1) 77%);
+    color: white;
+    border-radius: 10px;
+}
+.mainbox{
+    background-color: rgb(14, 14, 14);
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+.middle1{
+    height: 680px;
+}
+.sform{
+    border: 1px solid black;
+    padding: 50px;
+    border-radius: 20px;
+    background-color: rgb(14, 14, 14,.3);
+}
+
+@media screen and (max-width:1400px) {
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+    .heading{
+        padding-right: 0px;
+    }
+    .aboutus{
+        height: 1500px;
+    }
+    .inp{
+        min-width: 350px;
+    }
+ .addform{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+
+}
+
+
+/* calculator */
+
+.calculator{
+    height: 675px;
+    background-image: url("https://petsci.co.uk/wp-content/uploads/2012/01/weight-watching1-548x330.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.Cinput{
+   height:40px ;
+   width: 350px;
+   padding: 10px;
+   margin: 10px;
+}
+.cbtn{
+    height:40px ;
+    width: 350px;
+    background-color: rgb(64, 30, 235);
+    color: rgb(255, 251, 251);
+    border: none;
+}
+.cbtn:hover{
+    box-shadow: 5px 5px 15px black    ;
+}
+.margin{
+    margin-bottom: 120px;
+}
+.result{
+    background-color: rgb(0, 0, 0,.3);
+    height: 150px;
+    width: 350px;
+    margin-top: 30px;
+}
